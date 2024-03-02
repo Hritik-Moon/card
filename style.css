@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    background-color: #e9eaee;
+}
+.grid{
+    padding: 20px;
+    border-radius: 20px;
+    height: 500px;
+    width: 400px;
+    margin: 5px;
+    background-color: #ffffff;
+}
+.row{
+    padding: 10px;
+    margin: 50px;
+}
+.logo-image{
+    height: 80px;
+    width: 80px;
+    margin-right: 10px;
+    float: left;
+}
+h2{
+    font-size: 30px;
+}
+h4{
+    font-size: 15px;
+}
+.account-type{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #e9eaee;
+    border-radius: 10px;
+}
+.grid:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+
+}
+.price{
+    font-weight: 600;
+    display:inline;
+    margin-left:30px;
+    
+}
+.button{
+    margin:10px;
+}
+.options:hover{
+    background-color: purple;
+    color: white;
+}
